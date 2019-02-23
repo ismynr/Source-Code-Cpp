@@ -31,7 +31,7 @@ void AntrianMasuk(int no){
     nomer[tail]=no;
 }
 void AntrianKeluar(){
-    if(IsEmpty()){
+    if(IsEmpty()){ 
         cout<<"Antrian sudah kosong ! ";
         getch();
     } else {
